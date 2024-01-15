@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kalkulator Hitung Persegi</h1>
+      <p>
+        Hai Semuanya, Selamat datang di kalkulator hitung persegi<br />website
+        ini bertujuan untuk menghitung nilai luas dan keliling persegi
+      </p>
+    </header>
+    <main>
+      <h3>Rumus Luas Persegi</h3>
+      <p>
+        Di mana <span id="luas-persegi-label">L</span> = Luas,
+        <span id="sisi-persegi-label">S</span> = Sisi
+      </p>
+      <input
+        type="number"
+        id="sisi-persegi-input"
+        placeholder="Masukkan nilai sisi persegi"
+      />
+      <button id="hitung-luas-persegi-button">Hitung Luas Persegi</button>
+      <button id="reset-luas-persegi-button">Reset</button>
+      <p id="luas-sisixsisi-result"></p>
+      <p id="luas-persegix-result"></p>
+      <p id="luas-persegi-result"></p>
+
+      <h3>Rumus Keliling Persegi</h3>
+      <p>
+        Di mana <span id="keliling-persegi-label">K</span> = Keliling,
+        <span id="sisi-persegi-label-2">S</span> = Sisi
+      </p>
+      <input
+        type="number"
+        id="sisi-persegi-input-2"
+        placeholder="Masukkan nilai sisi persegi"
+      />
+      <button id="hitung-keliling-persegi-button">
+        Hitung Keliling Persegi
+      </button>
+      <button id="reset-luas-persegi-button">Reset</button>
+      <p id="keliling-pss-result"></p>
+      <p id="keliling-psss-result"></p>
+      <p id="keliling-persegi-result"></p>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
