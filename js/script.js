@@ -27,6 +27,7 @@ resetLuasPersegiButton.addEventListener("click", () => {
 const hitungKelilingPersegiButton = document.getElementById(
   "hitung-keliling-persegi-button"
 );
+
 const resetKelilingPersegiButton = document.getElementById(
   "reset-keliling-persegi-button"
 );
@@ -42,9 +43,9 @@ hitungKelilingPersegiButton.addEventListener("click", () => {
   const sisi = sisiPersegiInput2.value;
   const keliling = 4 * sisi;
 
+  kelilingPersegiResult.textContent = `Keliling Persegi: ${keliling}`;
   pss.textContent = `K = 4 X S`;
   psss.textContent = `K = 4 X ${sisi}`;
-  kelilingPersegiResult.textContent = `Keliling Persegi: ${keliling}`;
 });
 
 resetKelilingPersegiButton.addEventListener("click", () => {
